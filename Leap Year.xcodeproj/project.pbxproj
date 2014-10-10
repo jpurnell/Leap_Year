@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72DD277919E821C1003CF3BD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD277819E821C1003CF3BD /* AppDelegate.swift */; };
+		72DD277B19E821C1003CF3BD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD277A19E821C1003CF3BD /* ViewController.swift */; };
+		72DD277E19E821C1003CF3BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 72DD277C19E821C1003CF3BD /* Main.storyboard */; };
+		72DD278019E821C1003CF3BD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 72DD277F19E821C1003CF3BD /* Images.xcassets */; };
+		72DD278319E821C1003CF3BD /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 72DD278119E821C1003CF3BD /* LaunchScreen.xib */; };
+		72DD278F19E821C1003CF3BD /* Leap_YearTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72DD278E19E821C1003CF3BD /* Leap_YearTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		72DD278919E821C1003CF3BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 72DD276B19E821C1003CF3BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72DD277219E821C1003CF3BD;
+			remoteInfo = "Leap Year";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72DD277319E821C1003CF3BD /* Leap Year.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Leap Year.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DD277719E821C1003CF3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72DD277819E821C1003CF3BD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		72DD277A19E821C1003CF3BD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		72DD277D19E821C1003CF3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		72DD277F19E821C1003CF3BD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		72DD278219E821C1003CF3BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		72DD278819E821C1003CF3BD /* Leap YearTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Leap YearTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		72DD278D19E821C1003CF3BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		72DD278E19E821C1003CF3BD /* Leap_YearTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Leap_YearTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		72DD277019E821C1003CF3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DD278519E821C1003CF3BD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		72DD276A19E821C1003CF3BD = {
+			isa = PBXGroup;
+			children = (
+				72DD277519E821C1003CF3BD /* Leap Year */,
+				72DD278B19E821C1003CF3BD /* Leap YearTests */,
+				72DD277419E821C1003CF3BD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		72DD277419E821C1003CF3BD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				72DD277319E821C1003CF3BD /* Leap Year.app */,
+				72DD278819E821C1003CF3BD /* Leap YearTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		72DD277519E821C1003CF3BD /* Leap Year */ = {
+			isa = PBXGroup;
+			children = (
+				72DD277819E821C1003CF3BD /* AppDelegate.swift */,
+				72DD277A19E821C1003CF3BD /* ViewController.swift */,
+				72DD277C19E821C1003CF3BD /* Main.storyboard */,
+				72DD277F19E821C1003CF3BD /* Images.xcassets */,
+				72DD278119E821C1003CF3BD /* LaunchScreen.xib */,
+				72DD277619E821C1003CF3BD /* Supporting Files */,
+			);
+			path = "Leap Year";
+			sourceTree = "<group>";
+		};
+		72DD277619E821C1003CF3BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72DD277719E821C1003CF3BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		72DD278B19E821C1003CF3BD /* Leap YearTests */ = {
+			isa = PBXGroup;
+			children = (
+				72DD278E19E821C1003CF3BD /* Leap_YearTests.swift */,
+				72DD278C19E821C1003CF3BD /* Supporting Files */,
+			);
+			path = "Leap YearTests";
+			sourceTree = "<group>";
+		};
+		72DD278C19E821C1003CF3BD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72DD278D19E821C1003CF3BD /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		72DD277219E821C1003CF3BD /* Leap Year */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72DD279219E821C1003CF3BD /* Build configuration list for PBXNativeTarget "Leap Year" */;
+			buildPhases = (
+				72DD276F19E821C1003CF3BD /* Sources */,
+				72DD277019E821C1003CF3BD /* Frameworks */,
+				72DD277119E821C1003CF3BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Leap Year";
+			productName = "Leap Year";
+			productReference = 72DD277319E821C1003CF3BD /* Leap Year.app */;
+			productType = "com.apple.product-type.application";
+		};
+		72DD278719E821C1003CF3BD /* Leap YearTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 72DD279519E821C1003CF3BD /* Build configuration list for PBXNativeTarget "Leap YearTests" */;
+			buildPhases = (
+				72DD278419E821C1003CF3BD /* Sources */,
+				72DD278519E821C1003CF3BD /* Frameworks */,
+				72DD278619E821C1003CF3BD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				72DD278A19E821C1003CF3BD /* PBXTargetDependency */,
+			);
+			name = "Leap YearTests";
+			productName = "Leap YearTests";
+			productReference = 72DD278819E821C1003CF3BD /* Leap YearTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		72DD276B19E821C1003CF3BD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "JP Enterprises, Inc.";
+				TargetAttributes = {
+					72DD277219E821C1003CF3BD = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					72DD278719E821C1003CF3BD = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 72DD277219E821C1003CF3BD;
+					};
+				};
+			};
+			buildConfigurationList = 72DD276E19E821C1003CF3BD /* Build configuration list for PBXProject "Leap Year" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 72DD276A19E821C1003CF3BD;
+			productRefGroup = 72DD277419E821C1003CF3BD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				72DD277219E821C1003CF3BD /* Leap Year */,
+				72DD278719E821C1003CF3BD /* Leap YearTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		72DD277119E821C1003CF3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DD277E19E821C1003CF3BD /* Main.storyboard in Resources */,
+				72DD278319E821C1003CF3BD /* LaunchScreen.xib in Resources */,
+				72DD278019E821C1003CF3BD /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DD278619E821C1003CF3BD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		72DD276F19E821C1003CF3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DD277B19E821C1003CF3BD /* ViewController.swift in Sources */,
+				72DD277919E821C1003CF3BD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		72DD278419E821C1003CF3BD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72DD278F19E821C1003CF3BD /* Leap_YearTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		72DD278A19E821C1003CF3BD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 72DD277219E821C1003CF3BD /* Leap Year */;
+			targetProxy = 72DD278919E821C1003CF3BD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		72DD277C19E821C1003CF3BD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72DD277D19E821C1003CF3BD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		72DD278119E821C1003CF3BD /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				72DD278219E821C1003CF3BD /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		72DD279019E821C1003CF3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		72DD279119E821C1003CF3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		72DD279319E821C1003CF3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Leap Year/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		72DD279419E821C1003CF3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Leap Year/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		72DD279619E821C1003CF3BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Leap YearTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leap Year.app/Leap Year";
+			};
+			name = Debug;
+		};
+		72DD279719E821C1003CF3BD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Leap YearTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Leap Year.app/Leap Year";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		72DD276E19E821C1003CF3BD /* Build configuration list for PBXProject "Leap Year" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DD279019E821C1003CF3BD /* Debug */,
+				72DD279119E821C1003CF3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		72DD279219E821C1003CF3BD /* Build configuration list for PBXNativeTarget "Leap Year" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DD279319E821C1003CF3BD /* Debug */,
+				72DD279419E821C1003CF3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		72DD279519E821C1003CF3BD /* Build configuration list for PBXNativeTarget "Leap YearTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				72DD279619E821C1003CF3BD /* Debug */,
+				72DD279719E821C1003CF3BD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 72DD276B19E821C1003CF3BD /* Project object */;
+}

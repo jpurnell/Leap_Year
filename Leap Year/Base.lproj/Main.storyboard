@@ -1,22 +1,64 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6249" systemVersion="14A388a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6243"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
+        <!--Leap Year-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Leap Year" id="BYZ-38-t0r" customClass="ViewController" customModule="Leap_Year" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Enter a Year" textAlignment="center" lineBreakMode="wordWrap" baselineAdjustment="alignBaselines" minimumScaleFactor="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="uJr-q5-g9M">
+                                <rect key="frame" x="10" y="28" width="300" height="45"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="100" id="HRX-vV-7Rp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleAspectFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Year" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="OF0-C3-g7C">
+                                <rect key="frame" x="10" y="81" width="300" height="30"/>
+                                <accessibility key="accessibilityConfiguration" label="Enter a Year"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="numbersAndPunctuation" returnKeyType="go" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <action selector="yearEnteredAction:" destination="BYZ-38-t0r" eventType="editingDidEndOnExit" id="f77-BS-8uH"/>
+                                </connections>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="OF0-C3-g7C" firstAttribute="top" secondItem="uJr-q5-g9M" secondAttribute="bottom" constant="8" id="7De-e4-NmB"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="uJr-q5-g9M" secondAttribute="trailing" constant="-6" id="8cV-ob-p1X"/>
+                            <constraint firstItem="uJr-q5-g9M" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" symbolic="YES" id="Fr5-zV-Gls"/>
+                            <constraint firstItem="uJr-q5-g9M" firstAttribute="leading" secondItem="OF0-C3-g7C" secondAttribute="leading" id="KOY-HO-Vbq"/>
+                            <constraint firstItem="uJr-q5-g9M" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Lfo-8k-x4a"/>
+                            <constraint firstItem="uJr-q5-g9M" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-6" id="bdt-CA-dhh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OF0-C3-g7C" secondAttribute="trailing" constant="-6" id="cjJ-I3-10D"/>
+                            <constraint firstItem="OF0-C3-g7C" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-6" id="hJz-mX-ErQ"/>
+                            <constraint firstItem="uJr-q5-g9M" firstAttribute="trailing" secondItem="OF0-C3-g7C" secondAttribute="trailing" id="kIm-QP-otK"/>
+                            <constraint firstItem="uJr-q5-g9M" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-6" id="nvn-3X-sKt"/>
+                            <constraint firstItem="OF0-C3-g7C" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-6" id="rQm-In-1BQ"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OF0-C3-g7C" secondAttribute="trailing" constant="-6" id="xY0-zI-yqD"/>
+                        </constraints>
                     </view>
+                    <toolbarItems/>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+                    <connections>
+                        <outlet property="yearLabel" destination="uJr-q5-g9M" id="4gG-Oa-hvq"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
